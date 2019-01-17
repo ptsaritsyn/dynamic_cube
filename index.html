@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cube</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="ui-cube-wrapper wrapper">
+        <button class="wrapper__add_row add transition" onclick="cube.addLastRow()">+</button>
+        <button class="wrapper__add_column add transition" onclick="cube.addLastColumn()">+</button>
+        <button class="wrapper__delete_row delete transition" onclick="cube.deleteCurrentRow()">-</button>
+        <button class="wrapper__delete_column delete transition" onclick="cube.deleteCurrentColumn()">-</button>
+        <table class="wrapper__table">
+            <tbody>
+            <tr class="wrapper__tr">
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+            </tr>
+            <tr class="wrapper__tr">
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+            </tr>
+            <tr class="wrapper__tr">
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+            </tr>
+            <tr class="wrapper__tr">
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+                <td class="wrapper__td"></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="js/Cube.js"></script>
+</body>
+
+</html>
